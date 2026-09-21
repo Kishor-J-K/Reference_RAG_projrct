@@ -1,0 +1,25 @@
+# Core LangChain
+langchain==1.4.2
+langchain-core==1.6.3
+langchain-community==0.4.2
+langchain-text-splitters==1.1.2
+langchain-openai
+
+# HTTP and config
+requests
+python-dotenv
+
+# PDF loading
+pypdf==6.19.0
+pymupdf==1.28.2
+
+# Data and embeddings
+pandas
+numpy
+sentence-transformers==6.1.0
+chromadb==1.5.9
+scikit-learn
+
+# Notebook support
+ipykernel
+ipywidgets

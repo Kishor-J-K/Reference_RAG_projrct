@@ -1,0 +1,38 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and packaging artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated vector DBs and data files
+vector_store/
+data/vector_store/
+*.sqlite3
+chroma.sqlite3
+
+# PDF sources (keep source files out of Git if they are local or large)
+data/pdf/*.pdf
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Common caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
