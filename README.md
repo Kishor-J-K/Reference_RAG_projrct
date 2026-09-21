@@ -30,7 +30,6 @@ RAG/
 ├── notebook/
 │   └── pdf_loader.ipynb # the full pipeline
 ├── .env                 # your secrets (not tracked by git)
-├── .env.example
 ├── .gitignore
 ├── requirements.txt
 └── README.md
